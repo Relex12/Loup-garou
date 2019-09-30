@@ -5,7 +5,7 @@ Une application pour jouer au jeu Loup Garou
 * le but est de créer une application mobile d'aide pour le maître de jeu (nécessaire au déroulement de la partie)
 * l'architecture sera en Modèle-Vue-Contrôleur
 * dans un premier temps, seuls le modèle et le contrôleur seront implémentés (c'est un petit projet)
-* le langage ainsi que l'IDE ne sont pas encore choisis, bien que Kotlin sur Android Studio semble être une piste
+* le langage de développement sera le Dart, avec l'IDE Android Studio
 * l'application sera en français
 * le code sera rédigé en anglais
 * les commits sont en anglais

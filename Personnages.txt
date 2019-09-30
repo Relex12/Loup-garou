@@ -1,0 +1,70 @@
+role			with wolves	alone	French rolename			Description
+
+
+werewolf		1		0	Loup garou			se réveille chaque nuit en meute pour faire une victime
+villager		0		0	Simple villageois		vote chaque jour avec le village pour tuer quelqu'un
+
+seer			0		0	Voyante				se réveille chaque nuit pour connaître l'identité d'une personne
+thief 			0		0	Voleur 				échange son rôle avec celui d'une personne
+hunter			0		0	Chasseur			lorsqu'il meurt, peut tuer quelqu'un avec lui
+cupid			0		0	Cupidon				choisit deux personnes qui seront les amoureux
+witch			0		0	Sorcière			possède des potions de vie et de mort
+littlegirl		0		0	Petite fille			peut tenter d'épier les loups pendant qu'ils choisissent une victime
+
+savior			0		0	Salvateur			choisit une personne chaque nuit qui sera protégée de la mort
+villageidiot		0		0	Idiot du village		s'il est tué par le vote du village, il est épargné mais perd le droit de vote
+scapegoat		0		0	Bouc émissaire			s'il y a égalité dans un vote du village, c'est lui est tué à la place
+ancient			0		0	Ancien				s'il est tué par le vote du village, tout le monde perd son pouvoir, sauf les loups
+piedpipper		0		1	Joueur de flûte			chaque nuit, enchante une personne, il gagne lorsque tout le village est enchanté
+
+whitewerewolf		0		1	Loup garou blanc		une nuit sur deux, tue un loup garou
+raven 			0		0	Corbeau				chaque nuit, choisit une personne qui aura deux voix de plus contre elle au vote du lendemain
+
+wildchild		0		0	Enfant sauvage
+fox			0		0	Renard
+devotedservant		0		0	Servante dévouée
+brothers		0		0	Trois frères
+sisters			0		0	Deux sœurs
+beartamer		0		0	Montreur d'ours
+actor			0		0	Comédien
+knightwithrustysword	0		0	Chevalier à l'épée rouillée		
+slitteringjudge		0		0	Juge bègue
+angel			0		1	Ange déchu
+abominablesectarian	0		1	Abominable sectaire	
+vilefather		1		1	Infect père des loups	
+dog-wolf		0		0	Chien-loup		
+villager-villager 	0		0	Villageois-villageois
+bigbadwolf		1		0	Grand méchant loup
+
+shaman			0		0	Chaman
+puppeteer		0		0	Marionnetiste
+whiterabbit		0		1	Lapin blanc
+ankou			0		0	Ankou
+
+priest			0		0	Prêtre
+bodyguard 		0		0	Garde du corps
+amulettsbearer		0		0	Porteur d'amulettes
+shooter			0		0	Tireur
+harlot			0		0	Fille de joie
+grumpygranny		0		0	Mamie grincheuse	
+leper			0		0	Lépreux	
+crazyscientist		0		0	Savant fou
+toughguy		0		0	Gros dur
+wolfcub			1		0	Louveteau			s'il meurt, les loups font deux victimes la nuit suivante
+cursed			0		0	Humain maudit
+serialkiller		0		1	Tueur en série
+pyromaniac		0		1	Pyromane
+cultist			1		0	Cultiste			
+mystic			0		0	Mystique			chaque nuit, connait le nombre d'ennemis en vie des villageois
+president		0		0	Président
+						Arnacoeur			choisit une personne par nuit, si c'est un amoureux, il devient son amant
+						Fils de la Lune			s'il meurt, les loups garou ne font pas de victime la nuit suivante
+
+mayor			Maire							est élu parmi les volontaires, possède deux voix pour le vote chaque jour
+countryguard		Garde Champêtre						
+
+
+
+https://variantesloupgarou.blogspot.com/2007/03/nouveaux-personnages.html
+https://werewolf.chat/Roles
+https://loups-garous-online.forumactif.org/t3-roles
