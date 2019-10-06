@@ -45,6 +45,8 @@ struct joueur {
 	string nom_personnage
 	bool gagne_avec_villageois
 	bool gagne_seul
-
+	bool possède_pouvoir
+	bool just_dead
+	bool really_dead
 // + attributs propres aux personnages
 }

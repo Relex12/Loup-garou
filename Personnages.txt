@@ -20,48 +20,48 @@ piedpipper		0		1	Joueur de flûte			chaque nuit, enchante une personne, il gagne 
 whitewerewolf		0		1	Loup garou blanc		une nuit sur deux, tue un loup garou
 raven 			0		0	Corbeau				chaque nuit, choisit une personne qui aura deux voix de plus contre elle au vote du lendemain
 
-wildchild		0		0	Enfant sauvage
-fox			0		0	Renard
-devotedservant		0		0	Servante dévouée
-brothers		0		0	Trois frères
-sisters			0		0	Deux sœurs
-beartamer		0		0	Montreur d'ours
-actor			0		0	Comédien
-knightwithrustysword	0		0	Chevalier à l'épée rouillée		
-slitteringjudge		0		0	Juge bègue
-angel			0		1	Ange déchu
-abominablesectarian	0		1	Abominable sectaire	
-vilefather		1		1	Infect père des loups	
-dog-wolf		0		0	Chien-loup		
-villager-villager 	0		0	Villageois-villageois
-bigbadwolf		1		0	Grand méchant loup
+wildchild		0		0	Enfant sauvage			choisit un joueur modèle en début de partie, si celui-ci est tué par un loup, il devient un loup
+fox			0		0	Renard				choisit trois joueurs par nuit, si au moins l'un deux est un loup, il conserve son pouvoir
+devotedservant		0		0	Servante dévouée		lorsqu'un joueur est mort, avant que son rôle soit révélé, elle peut échanger son rôle avec lui
+brothers		0		0	Trois frères			peuvent se réveiller et communiquer sans parler
+sisters			0		0	Deux sœurs			peuvent se réveiller et communiquer sans parler
+beartamer		0		0	Montreur d'ours			si son ours grogne le matin, alors l'un des joueurs à côté de lui est un loup
+actor			0		0	Comédien			
+knightwithrustysword	0		0	Chevalier à l'épée rouillée	s'il est tué par les loups, ils ne font pas de victime la nuit suivante, et le premier loup à sa XXXX meurt	
+slitteringjudge		0		0	Juge bègue			peut une fois, grâce à signe dicret convenu à l'avance, choisir d'effectuer un second vote du village
+angel			0		1	Ange déchu			gagne s'il meurt la première nuit ou le premier jour, la partie s'arrête
+abominablesectarian	0		1	Abominable sectaire		divise le groupe en deux selon un critère, gagne lorsque les joueurs de l'autre groupe que le sien sont morts
+vilefather		1		1	Infect père des loups		une fois dans la partie, peut convertir la victime des loups en loup
+dog-wolf		0		0	Chien-loup			en début de partie, peut choisir entre villageois ou loup
+villager-villager 	0		0	Villageois-villageois		villageois dont tout le monde connait le rôle
+bigbadwolf		1		0	Grand méchant loup		tant que personne du clan des loups n'est mort, se réveille seul après les loups pour faire une deuxième victime
 
-shaman			0		0	Chaman
+shaman			0		0	Chaman				à partir de la deuxième nuit, peut discuter avec les joueurs morts
 puppeteer		0		0	Marionnetiste
 whiterabbit		0		1	Lapin blanc
 ankou			0		0	Ankou
 
-priest			0		0	Prêtre
-bodyguard 		0		0	Garde du corps
-amulettsbearer		0		0	Porteur d'amulettes
-shooter			0		0	Tireur
-harlot			0		0	Fille de joie
-grumpygranny		0		0	Mamie grincheuse	
-leper			0		0	Lépreux	
-crazyscientist		0		0	Savant fou
+priest			0		0	Prêtre				chaque nuit, peut choisir un joueur, si c'est un loup celui-ci meurt, sinon il meurt lui
+bodyguard 		0		0	Garde du corps			peut choisir quelqu'un chaque nuit, meurt si cette personne est ciblée
+amulettsbearer		0		0	Porteur d'amulettes		survit aux attaques de loups
+shooter			0		0	Tireur				possède deux coups de feu, son identité est révelée après le premier coup
+harlot			0		0	Fille de joie			peut passer la nuit chez un autre joueur, meurt si c'est un loup ou si celui-ci est attaqué, est indemne si elle n'est pas chez elle
+grumpygranny		0		0	Mamie grincheuse		choisit un joueur qui ne possèdera pas de voix au vote du village
+leper			0		0	Lépreux				
+crazyscientist		0		0	Savant fou			lorsqu'il meurt, les deux personnes à côté de lui meurent
 toughguy		0		0	Gros dur
 wolfcub			1		0	Louveteau			s'il meurt, les loups font deux victimes la nuit suivante
-cursed			0		0	Humain maudit
-serialkiller		0		1	Tueur en série
-pyromaniac		0		1	Pyromane
-cultist			1		0	Cultiste			
+cursed			0		0	Humain maudit			S'il est tué par les loups, devient l'un d'entre eux
+serialkiller		0		1	Tueur en série			chaque nuit, tue une personne
+pyromaniac		0		1	Pyromane			chaque nuit, peut soit imbiber deux personnes d'essence, soit brûler les personnes imbibées
+cultist			1		0	Cultiste			veut gagner avec les loups, est vu comme un villageois par la voyante
 mystic			0		0	Mystique			chaque nuit, connait le nombre d'ennemis en vie des villageois
-president		0		0	Président
-						Arnacoeur			choisit une personne par nuit, si c'est un amoureux, il devient son amant
-						Fils de la Lune			s'il meurt, les loups garou ne font pas de victime la nuit suivante
+president		0		0	Président			tout le monde sait qu'il est le président, s'il meurt, le village a perdu
+lover			0		0	Arnacoeur			choisit une personne par nuit, si c'est un amoureux, il devient son amant
+sonofthemoon		0		0	Fils de la Lune			s'il meurt, les loups garou ne font pas de victime la nuit suivante
 
 mayor			Maire							est élu parmi les volontaires, possède deux voix pour le vote chaque jour
-countryguard		Garde Champêtre						
+countryguard		Garde Champêtre						choisit le prochain maire à la mort de celui-ci
 
 
 
