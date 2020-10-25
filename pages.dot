@@ -1,0 +1,44 @@
+digraph G {
+// liste des noeuds
+
+  Principale;     // Page principale
+  Personnages;    // Liste personnages
+  Préparation;    // Préparation partie
+  Public;         // Rejoindre publique
+  Privé;          // Rejoindre privée
+  Attente;        // En attente de tous les joueurs
+  Joueur;         // Partie en cours (joueur)
+  Narrateur;      // Partie en cours (narrateur)
+  Création;       // Création personnage
+  Parcours;       // Parcours personnages
+  Compte;         // Pseudo, apparance
+  Succès;         // réalisés et restants
+  Paramètres;     // Son > musique, synchronisation
+  "A propos";     // Texte fixe
+
+// liste des segments
+
+  Principale -> Personnages [fontsize=9.0; label="Personnages"];
+
+  Principale -> Préparation [fontsize=9.0; label="Jouer > Public > Héberger"];
+  Principale -> Préparation [fontsize=9.0; label="Jouer > Privé > Héberger"];
+  Principale -> Préparation [fontsize=9.0; label="Jouer > Narrateur"];
+  Principale -> Public [fontsize=9.0; label="Jouer > Public > Rejoindre"];
+  Principale -> Privé [fontsize=9.0; label="Jouer > Privé > Rejoindre"];
+
+  Préparation -> Attente [fontsize=9.0; label="Créer"];
+  {Privé Public} -> Attente [fontsize=9.0; label="Rejoindre"];
+  Attente -> Joueur [fontsize=9.0; label="Prêt"];
+
+  Préparation -> Narrateur [fontsize=9.0; label="Lancer"];
+
+  {Préparation Attente Joueur Narrateur} -> Personnages [fontsize=9.0; label="Personnages"];
+
+  Principale -> Création [fontsize=9.0; label="Créations originales > Créer"];
+  Principale -> Parcours [fontsize=9.0; label="Créations originales > Parcourir"];
+
+  Principale -> Compte [fontsize=9.0; label="☰ > Compte"];
+  Principale -> Succès [fontsize=9.0; label="☰ > Succès"];
+  Principale -> Paramètres [fontsize=9.0; label="☰ > Paramètres"];
+  Principale -> "A propos" [fontsize=9.0; label="☰ > A propos"];
+}
