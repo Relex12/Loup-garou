@@ -6,7 +6,25 @@ Une application pour jouer au jeu Loup Garou
 
 ---
 
-[TOC]
+## Sommaire
+
+* [Le jeu](#Le-jeu)
+  * [Synopsis](#Synopsis)
+  * [Comment jouer ?](#Comment-jouer-)
+  * [Personnages](#Personnages)
+* [L'application](#L'application)
+  * [Modes de jeu](#Modes-de-jeu)
+  * [Pages](#Pages)
+    * [Architecture](#Architecture)
+    * [Fonctionnalités](#Fonctionnalités)
+  * [Création de rôles](#Création-de-rôles)
+* [Développement](#Développement)
+  * [Priorité](#Priorité)
+  * [Long terme](#Long-terme)
+* [Règles du dépôt](#Règles-du-dépôt)
+* [Licence](#Licence)
+
+----
 
 ## Le jeu
 
@@ -38,7 +56,7 @@ Comme décrit plus bas, il sera possible de **créer des rôles** directement de
 
 L'application **Loup-garou** sera accessible sur smartphone (Android/iOS) et sur navigateur (Firefox, Chrome). Il y aura 3 modes de jeux présents, ainsi qu'une gestion de la communauté.
 
-### Modes de jeux
+### Modes de jeu
 
 Les 3 modes de jeux disponibles seront :
 
@@ -122,6 +140,6 @@ Une application Windows pourra être réalisée si nécessaire (supporté par Fl
 * le code, les commentaires, les commits, **tout est rédigé en français**
 * une fois que l'application est fonctionnelle, le dépôt pourra être traduit en anglais
 
-## License
+## Licence
 
 Ce projet est un petit projet. Le code source est donné librement à la  communauté GitHub, sous la seule licence MIT, qui n'est pas trop  restrictive.
