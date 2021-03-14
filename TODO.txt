@@ -1,0 +1,15 @@
+- Compléter Blocks.md
+
+----------
+
+- Finir Personnages.md (ajouter l'origine)
+- Refaire le Readme
+- Vérifier le License.txt
+- Vérifer l'architecture des pages
+- Survoler exemple.txt, le renommer
+- Supprimer Personnages.txt et Algo.txt (garder une trace ?)
+- TOC ReadME
+
+---------
+
+- Fonctionnalités des noeuds de pages.dot

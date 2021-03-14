@@ -1,0 +1,131 @@
+Dans ce fichier : l'implémentation Blockly des personnages, en résumé.
+Le contenu n'est pas vérifié et devra l'être avant d'être implémenté.
+
+===============================================================================
+
+Loup-garou
+----------
+- extension : base
+- ordre :
+- camps : loups
+- plusieurs rôles possible
+- chaque nuit les loups votents pour tuer un joueur
+
+Villageois
+----------
+- extension : base
+- ordre :
+- camps : village
+- plusieurs rôles possible
+
+Voyante
+-------
+- extension : base
+- ordre :
+- camps : village
+- chaque nuit la voyante désigne un joueur pour connaître son identité
+
+Voleur
+-------
+- extension : base
+- ordre :
+- camps : village
+- chaque nuit le voleur désigne un joueur pour échanger son rôle avec lui
+
+Chasseur
+-------
+- extension : base
+- ordre :
+- camps : village
+- lorsqu'il meurt le chasseur désigne un joueur qui meurt avec lui
+
+Cupidon
+-------
+- extension : base
+- ordre :
+- camps : village
+- la première nuit le cupidon désigne deux joueurs qui seront amoureux
+- définition amoureux :
+  - camps : ensemble
+  - si l'un meurt, l'autre meurt aussi
+
+Sorcière
+-------
+- extension : base
+- ordre :
+- camps : village
+- la sorcière possède N potion(s) de vie et N potion(s) de mort
+- chaque nuit la sorcière apprend qui a été tué
+  - tant qu'elle a des potions de vie elle peut récussiter un joueur mort ce tour là
+  - tant qu'elle a des potions de mort elle peut tuer un joueur
+
+Petite fille
+-------
+- extension : base
+- ordre :
+- camps : village
+- chaque nuit la petite fille entend les loups discuter
+
+Salvateur
+-------
+- extension :
+- ordre :
+- camps : village
+- chaque nuit le salvateur désigne un joueur qui ne pourra pas mourir durant la nuit
+  - le salvateur ne peut pas désigner la même personne deux nuits d'affilé
+
+Idiot du village
+-------
+- extension :
+- ordre :
+- camps : village
+- durant le vote du village si l'idiot du village est tué alors il est épargné
+  - il perd son droit de vote
+
+Bouc-émissaire
+-------
+- extension :
+- ordre :
+- camps : village
+- durant le vote du village s'il y a égalité, c'est le bouc-émissaire qui est tué
+
+Ancien
+-------
+- extension :
+- ordre :
+- camps : village
+- durant le vote du village si le grand ancien est tué, tous les joueurs autre que loup-garou perdent leur pouvoir
+
+Joueur de flûte
+-------
+- extension :
+- ordre :
+- camps : seul
+- chaque nuit le joueur de flûte désigne un joueur à envoûter
+- il gagne lorsque tous les joueurs sont envoûtés
+- définir : envoûtés
+
+Loup-garou blanc
+-------
+- extension :
+- ordre :
+- camps : seul
+- une nuit sur deux le loup-garou blanc peut tuer un joueur
+- se réveille avec les loups
+- il gagne lorsqu'il est le dernier joueur en vie
+
+Corbeau
+-------
+- extension :
+- ordre :
+- camps : village
+- chaque nuit le corbeau désigne un joueur à diffamer qui aura 2 voix de plus contre lui au prochain vote du village
+
+Enfant sauvage
+-------
+- extension :
+- ordre :
+- camps : ambigu
+- la première nuit l'enfant sauvage désigne un modèle
+- lorsque
+- définir : modèle

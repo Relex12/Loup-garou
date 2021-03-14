@@ -12,7 +12,7 @@ Une application pour jouer au jeu Loup Garou
   * [Synopsis](#Synopsis)
   * [Comment jouer ?](#Comment-jouer-)
   * [Personnages](#Personnages)
-* [L'application](#L'application)
+* [L'application](#Lapplication)
   * [Modes de jeu](#Modes-de-jeu)
   * [Pages](#Pages)
     * [Architecture](#Architecture)
@@ -142,4 +142,4 @@ Une application Windows pourra être réalisée si nécessaire (supporté par Fl
 
 ## Licence
 
-Ce projet est un petit projet. Le code source est donné librement à la  communauté GitHub, sous la seule licence MIT, qui n'est pas trop  restrictive.
+Comme ce projet est en conception, le dépôt est libre d'accès à la  communauté GitHub, sous la seule licence MIT, qui n'est pas trop  restrictive.
